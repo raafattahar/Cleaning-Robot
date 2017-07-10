@@ -1,0 +1,30 @@
+-install java on Pi : 
+	sudo apt-get install oracle-java7-jdk
+-test java is installed : 
+	java -version
+-test hello word:
+	nano
+	public class Hello
+	{
+		public static main(String[] args)
+		{
+			System.out.println("hello word");
+		}
+	}
+-compile the java class and run it: 
+	javac Hello.java
+	java Hello
+##############################################
+	not usefull ???
+##############################################
+-copy deb to pi in CMD: 
+	pscp pi4j-1.1.deb pi@retropie:/home/pi
+-PUTTY : 
+	sudo dpkg -i pi4j-1.1.deb
+-to uninstall : 
+	sudo dpkg -r pi4j
+##############################################
+-test client/server socket (with byte[])
+-test ssh from device to pi
+-create bash file to run the server socket from ssh
+#############################################
